@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #cd9933;
+}
+ul,li{
+    list-style: none;
+}
+table
+  {
+    border-collapse:collapse;  
+    border-spacing:0; 
+  }
+tr,th,td{
+    padding: 20px;
+}
+/* 首页部分 */
+header,section,footer{
+    max-width: 960px;
+    margin: auto;
+}
+header img{
+    max-width: 100%;
+    width: 100%;
+}
+header .tag ul{
+    display: flex;
+    justify-content: space-around;
+    background: #85cb35;
+    line-height: 40px;
+}
+header .tag ul li{
+    border-right:solid #fff 1px;
+    width: 20%;
+    text-align: center;
+}
+section{
+    margin: 1vh auto;
+    display: flex;
+    justify-content: space-around;
+}
+section .left img{
+    position:relative;
+    min-width: 25%;
+    min-height: 600px;
+}
+section .right{
+    float:right;
+    width:100%;  
+}
+section .right .content{
+    margin-left: 1%;
+    background: #fff;
+    min-height: 600px;
+}
+section .right .content p{
+    margin:0 2vw;
+    line-height: 3em;
+    text-indent: 2em;
+}
+section .right .content .company-introduce img{
+    width: 100%;
+}
+footer .copyright{
+    background: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+/* companyElite部分 */
+section .right .companyElite{
+    padding: 1vh auto;
+}
+section .right .content ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section .right .content ul li img{
+    width: 60%;
+    padding: 2em;
+}
+/* aboutUs部分 */
+section .right .aboutUs{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+section .right .aboutUs caption{
+    font-size:2em ;
+    font-weight: 700;
+    margin: 2em 0;
+    /* align-items: center; */
+}
